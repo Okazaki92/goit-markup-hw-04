@@ -294,10 +294,14 @@ p {
 }
 .client-background {
   width: 170px;
+  height: 92px;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
   fill: #AFB1B8;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .client-background:hover,
 .client-background:focus {
